@@ -1,0 +1,10 @@
+
+.UIBackTopTopControl {
+    background: rgba(0, 0, 0, 0) url("Images/top.png") no-repeat scroll center center;
+    bottom: 15%;
+    height: 36px;
+    position: fixed;
+    right: 5%;
+    width: 35px;
+    z-index: 10;
+}

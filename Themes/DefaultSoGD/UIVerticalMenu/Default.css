@@ -1,0 +1,158 @@
+
+.VerticalMenuControl {
+    background: rgba(0, 0, 0, 0) url("Images/redver.png") no-repeat scroll left top;
+    border-bottom: 1px solid #fff;
+    left: -4px;
+    margin-bottom: 8px;
+    padding: 24px 0 0;
+    position: relative;
+    width: 240px;
+}
+.VerticalMenuControl ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.VerticalMenuControl .MenuList {
+    left: 7px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 98%;
+}
+.VerticalMenuControl .MenuList li.top:hover a {
+    color: #ffffff;
+}
+.VerticalMenuControl .MenuList .top .sublink:hover {
+}
+.VerticalMenuControl .MenuList .top a:hover {
+}
+.VerticalMenuControl .top > a {
+}
+.VerticalMenuControl ul .sublink {
+    list-style: outside none none;
+}
+.VerticalMenuControl .MenuList li.top:hover {
+    background: #db1616 url("Images/ivh.png") no-repeat scroll left 7px center;
+}
+.VerticalMenuControl .Menulist {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.VerticalMenuControl .MenuList li.top {
+    background: #f9e5e5 url("Images/iver.png") no-repeat scroll left 7px center;
+    border-bottom: 1px solid #e4a2a2;
+    border-top: 1px solid #fff;
+    display: block;
+    height: 27px;
+    margin: 1px 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.VerticalMenuControl .MenuList li.top a {
+    color: #444;
+    display: inline-block;
+    font: bold 10pt/27px "Segoe UI",Tahoma,Verdana;
+    padding-left: 25px;
+}
+.VerticalMenuControl .MenuList .dropdown {
+    background: #ffffff none repeat scroll 0 0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    left: 98%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 50;
+}
+.VerticalMenuControl .MenuList .top .dropdown a.sublink {
+    color: #444;
+    font: 10pt/20px "Segoe UI",Tahoma,Verdana;
+    white-space: nowrap;
+}
+.VerticalMenuControl .MenuList .dropdown .sublink:hover {
+    color: #f31005;
+    font: bold 10pt/20px arial;
+}
+.VerticalMenuControl .MenuList .dropdown .sub {
+    background: #f9e5e5 none repeat scroll 0 0;
+    border-bottom: 1px solid #e4a2a2;
+    border-top: 1px solid #fff;
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+}
+.VerticalMenuControl .MenuList .dropdown .sub .dropdown .sub {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-bottom: 1px solid #037503;
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+}
+.VerticalMenuControl .MenuList .dropdown .sub .dropdown .sub a {
+    color: #000;
+    font: bold 10pt/20px arial;
+    white-space: nowrap;
+}
+.VerticalMenuControl .MenuList .dropdown .sub .dropdown .sub a:hover {
+    color: #f31005;
+}
+.VerticalMenuControl .MenuList .dropdown .sub:hover {
+}
+.VerticalMenuControl .MenuList .dropdown .sub:hover a {
+    color: #f31005;
+}
+.VerticalMenuControl .MenuList .dropdown .sub .dropdown {
+    left: 98%;
+    position: absolute;
+    top: 0;
+}
+.VerticalMenuControl .MenuList .top .hassub {
+    background: rgba(0, 0, 0, 0) url("Images/d.png") no-repeat scroll right center;
+    width: 87%;
+}
+.VerticalMenuControl .MenuList .top:hover .second {
+    background: #ffffff none repeat scroll 0 0;
+    display: block !important;
+    left: 99%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 50;
+}
+.VerticalMenuControl .MenuList .top .second {
+    display: none;
+}
+.VerticalMenuControl .MenuList .second a.sublink {
+    color: #000000;
+    font: bold 10pt/20px arial;
+    white-space: nowrap;
+}
+.VerticalMenuControl .MenuList .second .sub {
+    background: #f9e5e5 none repeat scroll 0 0;
+    border-bottom: 1px solid #e4a2a2;
+    border-top: 1px solid #fff;
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+}
+.VerticalMenuControl .MenuList .second .sub a {
+    color: #444 !important;
+    font: 10pt/20px "Segoe UI",Tahoma,Verdana;
+    white-space: nowrap;
+}
+.VerticalMenuControl .MenuList .second .sub:hover a {
+    color: #f31005 !important;
+}
+.VerticalMenuControl .MenuList .second .sub .dropdown {
+    left: 100%;
+    position: absolute;
+    top: 0;
+}
+.VerticalMenuControl .MenuList .second .sub .dropdown .sub {
+    background: #f0f0f0 none repeat scroll 0 0;
+    border-bottom: 1px solid #037503;
+    padding: 5px 5px 5px 10px;
+}

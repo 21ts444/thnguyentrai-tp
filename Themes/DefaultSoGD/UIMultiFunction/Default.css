@@ -1,0 +1,37 @@
+.MultiFunctionControl
+{
+    background-color:  !important;
+}
+.MultiFunctionControl .right {
+    float: right;
+    padding-right: 20px;
+}
+.MultiFunctionControl ul.social_list {
+    list-style: none outside none;
+}
+.MultiFunctionControl ul.social_list li {
+    float: left;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+.MultiFunctionControl ul.social_list li.first {
+    margin-left: 0;
+}
+.MultiFunctionControl ul.social_list li img {
+    margin: 0 5px 0 3px;
+    vertical-align: middle;
+}
+
+
+/* --------------------------GỬI CÂU HỎI-----------------------------*/
+
+
+.MultiFunctionControl .Guicauhoi {
+    position: relative;
+    width: 740px;
+}
+.MultiFunctionControl .Guicauhoi .wrap {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

@@ -1,0 +1,33 @@
+
+.SingleSearch {
+    position: absolute;
+    right: 1px;
+    top: 155px;
+    z-index: 1;
+}
+.SingleSearch .SearchBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    width: 120px;
+    z-index: 1;
+}
+.SingleSearch .SearchBox .Text {
+    border: medium none;
+    color: #5b5b5b;
+    display: inline-block;
+    font: italic 9pt Arial;
+    height: 18px;
+    margin: 0;
+    text-align: left;
+    width: 75%;
+}
+.SingleSearch .SearchBox .Button {
+    background: rgba(0, 0, 0, 0) url("images/s.png") no-repeat scroll center center;
+    border: medium none;
+    display: inline-block;
+    float: right;
+    height: 22px;
+    width: 22px;
+}

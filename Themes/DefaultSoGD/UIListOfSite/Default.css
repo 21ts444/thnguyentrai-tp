@@ -1,0 +1,73 @@
+
+.ListOfSite {
+    background: #ff5400 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #e7e7e7;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.ListOfSite ul.ul-list {
+    display: block;
+    height: 33px;
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 0;
+    text-align: right;
+    width: 1060px;
+}
+.ListOfSite ul.ul-list li:last-child {
+    border: medium none;
+}
+.ListOfSite ul.ul-list li {
+    border-right: 1px solid #e2470a;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 13px/33px "Segoe UI",Tahoma,Verdana;
+    height: 33px;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+}
+.ListOfSite ul.ul-list li:hover {
+    background: #da1c1c none repeat scroll 0 0;
+    color: #fff;
+}
+.ListOfSite ul.ul-list li:hover div {
+    background: #fff none repeat-x scroll left top;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    left: -105%;
+    position: absolute;
+    text-align: left;
+    top: 98%;
+    width: auto;
+    z-index: 10000;
+}
+.ListOfSite ul.ul-list li:hover .div14 {
+    left: -140%;
+    position: absolute;
+}
+.ListOfSite ul.ul-list li:hover .div15 {
+    left: -460%;
+    position: absolute;
+}
+.ListOfSite ul.ul-list li:hover div .tb-Site td:hover {
+    background: #ff6600 none repeat scroll 0 0;
+}
+.ListOfSite ul.ul-list li:hover div a:hover {
+    color: #fff;
+}
+.ListOfSite ul.ul-list li:hover div a {
+    display: inline-block;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    padding: 10px 20px;
+    white-space: nowrap;
+}

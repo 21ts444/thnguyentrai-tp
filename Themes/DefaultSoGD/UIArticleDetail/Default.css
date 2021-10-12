@@ -1,0 +1,62 @@
+
+.ArticleDetailControl * {
+    font: 13px "Segoe UI",Tahoma,Verdana;
+}
+.ArticleDetailControl a {
+    color: blue;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    text-decoration: underline;
+}
+.ArticleDetailControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.ArticleDetailControl .ArticleContent > table {
+    margin: 0 !important;
+    width: 100% !important;
+}
+.ArticleDetailControl .PostDate {
+    color: #666;
+    font: italic 12px "Segoe UI",Tahoma,Verdana;
+    text-align: right;
+}
+.ArticleDetailControl .ArticleHeader {
+    color: #444;
+    font: bold 15px/20px "Segoe UI",Tahoma,Verdana;
+    text-align: left;
+}
+.ArticleDetailControl .ArticleSummary {
+    font: italic bold 10pt arial;
+    margin: 20px 0;
+    text-align: justify;
+}
+.ArticleDetailControl .ImgDetailImage {
+    height: auto !important;
+    margin: 20px 0;
+    max-width: 600px !important;
+    vertical-align: top;
+}
+.ArticleDetailControl .ArticleContent img {
+    height: auto !important;
+    margin: 10px 0;
+    max-width: 700px !important;
+}
+.ArticleDetailControl .ArticleContent {
+    clear: both;
+    text-align: justify;
+}
+.ArticleDetailControl .EmptyNote {
+    color: #ff6a00;
+    font-size: 18px;
+}

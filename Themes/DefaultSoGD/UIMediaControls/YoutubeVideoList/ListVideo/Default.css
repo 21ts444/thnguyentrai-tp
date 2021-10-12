@@ -1,0 +1,68 @@
+
+.YoutubeVideoList {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.YoutubeVideoList .ListVideo {
+}
+.YoutubeVideoList ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.YoutubeVideoList li {
+    background: rgba(0, 0, 0, 0) url("Images/icon-video.gif") no-repeat scroll left center;
+    border-bottom: 1px dashed #e0e0e0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 0 5px 25px;
+}
+.YoutubeVideoList .ListVideo .VideoItem img {
+    display: none;
+    float: left;
+    height: 60px;
+    margin-right: 10px;
+    width: 80px;
+}
+.YoutubeVideoList li .title:hover {
+    color: #0079c2;
+}
+.YoutubeVideoList li .title {
+    color: #333;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    padding-right: 5px;
+}
+.YoutubeVideoList .VideoHeader {
+    border-radius: 0 8px 0 0;
+    display: none;
+}
+.YoutubeVideoList .VideoHeader .Text {
+    color: #fff;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    padding-left: 15px;
+}
+.YoutubeVideoList .ListVideo .CurrentPage {
+    font: bold 12px "Segoe UI",Tahoma,Verdana;
+    color: #555;
+    padding: 0 2px;
+}
+.YoutubeVideoList .ListVideo .NumberPage {
+    font: 12px "Segoe UI",Tahoma,Verdana;
+    color: #777;
+    padding: 0 2px;
+}
+.YoutubeVideoList .ListVideo > span {
+    display: block;
+    margin: 0 5px;
+    text-align: right;
+}

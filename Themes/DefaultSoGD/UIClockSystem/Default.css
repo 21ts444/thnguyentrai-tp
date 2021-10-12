@@ -1,0 +1,12 @@
+
+.UIClockSystem {
+    position: absolute;
+    right: 133px;
+    top: 159px;
+}
+.UIClockSystem .clock {
+    color: #fff;
+    display: inline-block;
+    font: italic 12px arial;
+    margin: 0;
+}

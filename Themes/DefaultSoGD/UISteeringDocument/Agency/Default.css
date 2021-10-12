@@ -1,0 +1,44 @@
+
+.AgencyControl {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    margin: 0 0 10px;
+}
+.AgencyControl .Header {
+   border-bottom: 2px solid #eabc00;
+    height: 32px;
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+.AgencyControl .Header span {
+    border-bottom: 6px solid #b80002;
+    color: #ae0002;
+    display: inline-block;
+    font: bold 10pt/30px Arial;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.AgencyControl .Detail {
+    padding: 10px;
+}
+.AgencyControl .Detail ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.AgencyControl .Detail .arrow {
+    background: rgba(0, 0, 0, 0) url("Images/arr.png") no-repeat scroll left center;
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+}
+.AgencyControl .Detail .UserItem > a {
+    padding-left: 2px;
+}
+.AgencyControl .Detail .UserItem {
+    padding: 2px 0;
+}
+.AgencyControl .Detail .UserItem > a:hover {
+    color: #830304;
+    text-decoration: underline;
+}

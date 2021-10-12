@@ -1,0 +1,88 @@
+
+.MultipleTabDefault {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+.MultipleTabDefault .Header {
+    height: 27px;
+}
+.MultipleTabDefault .Header .Wraper {
+}
+.MultipleTabDefault .Header .HeadWraper ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.MultipleTabDefault .Header .HeadWraper li {
+    background: rgba(0, 0, 0, 0) url("Images/bar.png") no-repeat scroll left top;
+    border-radius: 5px 0 0;
+    display: block;
+}
+.MultipleTabDefault .Header .HeadWraper li span {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+.MultipleTabDefault .Header .HeadWraper .Primary span {
+    border-radius: 5px 5px 0 0;
+}
+.MultipleTabDefault .Header .HeadWraper .Primary a {
+    color: #fff;
+    font: bold 9pt/27px arial;
+    padding: 0 6px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.MultipleTabDefault .Header .HeadWraper .Sub span {
+    margin-right: 6px;
+}
+.MultipleTabDefault .Header .HeadWraper .Sub a {
+    border-right: 1px solid #424242;
+    font: bold 10pt/27px arial;
+    padding: 0 15px 0 10px;
+}
+.MultipleTabDefault .Wrap {
+    border: 1px solid #e0e0e0;
+    height: 260px;
+    padding: 10px;
+}
+.MultipleTabDefault .Wrap .first {
+    clear: both;
+}
+.MultipleTabDefault .Wrap .first .image {
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+    width: 140px;
+}
+.MultipleTabDefault .Wrap .first .title {
+    margin: 0;
+    padding: 0;
+}
+.MultipleTabDefault .Wrap .first p {
+    font: 13px arial;
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: justify;
+}
+.MultipleTabDefault .Wrap .first .title a {
+    color: #333;
+    font: bold 10pt Arial;
+    text-decoration: none;
+}
+.MultipleTabDefault .Wrap .clear {
+    clear: both;
+}
+.MultipleTabDefault .Wrap .next {
+    list-style: outside none square;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+.MultipleTabDefault .Wrap .next li {
+    padding: 2px 0;
+}
+.MultipleTabDefault .Wrap .next li a {
+    text-decoration: none;
+}

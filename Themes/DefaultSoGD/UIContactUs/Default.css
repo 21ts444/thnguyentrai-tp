@@ -1,0 +1,60 @@
+
+.UIContactUs {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 8px;
+    padding: 15px;
+}
+.UIContactUs .Head {
+    padding: 0;
+}
+.UIContactUs .Head .Title {
+    color: #444;
+    font: bold 16px Arial;
+}
+.UIContactUs .InfoError {
+    border: 0 none;
+    padding: 4px;
+}
+.UIContactUs .InfoError .Msg {
+    color: Red;
+    font: 10pt Arial;
+}
+.UIContactUs .FormBody {
+    width: 100%;
+}
+.UIContactUs .FormBody .FormContact {
+}
+.UIContactUs .FormBody .FormContact .LabelText {
+}
+.UIContactUs .FormBody .FormContact .InputText .InputFied {
+    width: 190px;
+}
+.UIContactUs .FormBody .FormContact .InputContact {
+}
+.UIContactUs .FormBody .FormContact .InputContact .Content {
+    height: 90px;
+    width: 300px;
+}
+.UIContactUs .SubmitForm {
+    margin-left: 103px;
+}
+.UIContactUs .SubmitForm .btnSubmit {
+    background-color: #de1f26;
+    border: medium none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font: 13px arial;
+    height: 26px;
+    margin: 10px 0 0;
+    width: 68px;
+}

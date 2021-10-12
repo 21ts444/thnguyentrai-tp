@@ -1,0 +1,132 @@
+body, html, form
+{
+    padding: 0px;
+    margin: 0px;
+    font: normal 9pt Arial;
+    height:100%;
+}
+
+.FormHeader
+{
+    background: #E3EFFF url('Images/bgFormHeader.png') repeat-x bottom;
+    height: 26px;
+    font: bold 9pt/26px Arial;
+    color: #15428B;
+    text-align: center;
+}
+
+.Box
+{
+    border: solid 1px #88B0E4;
+}
+
+.BoxSeparate
+{
+    border: solid 1px #88B0E4;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+.BoxHeader
+{
+    background: #E3EFFF url('Images/bgFormHeader.png') repeat-x bottom;
+    height: 24px;
+    font: bold 8pt/24px Arial;
+    color: #15428B;
+    padding-left: 6px;
+}
+
+.divInfo
+{
+    padding: 8px;
+    color: Red;
+    border: solid 1px #F68928;
+    background-color: #FFE8A6;
+    font: normal 9pt Arial;
+    height: auto;
+}
+
+
+.ConfirmContainer, .DialogContainer
+{
+    background-color: #E4EFFF;
+    display: inline-block;
+    border: solid 1px #8e8e8e;
+}
+
+.ConfirmBottom
+{
+    margin: 6px;
+    text-align: right;
+}
+
+.DialogBottom
+{
+    padding: 4px;
+    text-align: right;
+    height: 18px;
+}
+
+.DialogBottom IMG
+{
+    margin-left: 8px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.DialogContent
+{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ConfirmBottom IMG
+{
+    margin-left: 8px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.ConfirmTitle, .DialogTitle
+{
+    font: bold 9pt Arial;
+    padding: 6px;
+    cursor: move;
+    height: 12px;
+    background: #9EB9D4 url('../../Images/bgWindowTitle.png') repeat-x left bottom;
+    white-space:normal;
+}
+
+.ConfirmContent
+{
+    padding-top: 24px;
+    padding-bottom: 6px;
+    height: 70px;
+    padding-left: 62px;
+    padding-right: 8px;
+    font: normal 9pt Arial;
+    background: url('../../Images/Question.png') no-repeat 12px center;
+    vertical-align: top;
+}
+
+.DialogBox
+{
+    background-color: #ffffff;
+    font: normal 9pt Arial;
+    border: solid 1px #738393;
+}
+
+.GrayImage
+{
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -moz-opacity: 0.30;
+}
+
+.MainFormBanner {
+	padding-left:200px;
+	color: black; font:bold 9pt Arial;
+}
+
+.MainFormBanner div {padding:4px;}

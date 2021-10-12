@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: medium none;
+}
+a {
+    color: #424242;
+    font: 10pt arial;
+    text-decoration: none;
+}
+body {
+    font: 9pt Arial;
+    margin: 0;
+    padding: 0;
+}
+.MainStructure {
+    text-align: justify;
+}
+.FooterBanner {
+    background: url("../../../Default/Images/ff.html") repeat-x scroll left top transparent;
+}
+.TopBanner {
+    background: url("../../../Default/Images/bn1.html") repeat-x scroll center top #E5E5E5;
+}
+.MainStructure .TopBanner, .FooterBanner {
+    text-align: center;
+}
+.MainStructure .ContentBanner {
+    background: none repeat scroll 0 0 #E5E5E5;
+    display: inline-block;
+    width: 100%;
+}
+.MainStructure .MainContent {
+    margin: 0 auto;
+    width: 980px;
+}
+.MainStructure .TopBar {
+}
+.MainStructure .TopBar, .FooterBar {
+    display: inline-block;
+    width: 980px;
+}
+.MainStructure .LeftBar {
+    padding: 20px 10px 20px 0;
+    text-align: justify;
+    vertical-align: top;
+    width: 960px;
+}
+.MainStructure .RightBar {
+    padding-top: 20px;
+    vertical-align: top;
+    width: 0 !important;
+}
+.MainStructure .ContentBar {
+    padding: 20px 10px 20px 0;
+    text-align: justify;
+    vertical-align: top;
+}
+.left_info .content_left {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FCFCFC;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    width: 168px;
+}
+.mottour {
+    border-bottom: 1px solid #CCCCCC;
+    clear: left;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.mottour h2 {
+    font-size: 12px;
+}
+.linktour {
+    color: #515151;
+    font-size: 11px;
+    font-style: italic;
+}
+.mottour .imgtour {
+    margin: 5px 0;
+    text-align: center;
+}
+.mottour .imgtour {
+    text-align: center;
+}
+.UIBannerControl {
+    text-align: left;
+}
+.bg_menufooter {
+    background: url("../../../../ErrorRequestb914.html") repeat-x scroll left top transparent;
+    clear: left;
+    height: 31px;
+}
+.dulichvietnam {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+ul.menufooter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+ul.menufooter li {
+    display: inline;
+}
+ul.menufooter li a {
+    color: #FFFFFF;
+    line-height: 31px;
+    padding: 0 15px 0 0;
+}
+.barmenufooter {
+    background: none repeat scroll 0 0 #D7D7D7;
+    clear: left;
+    height: 31px;
+}
+.dulichvietnam {
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+ul.menubarfooter {
+    font-size: 11px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+ul.menubarfooter li {
+    display: inline;
+}
+ul.menubarfooter li a {
+    line-height: 31px;
+    padding: 0 5px;
+}
+.paddingfooter {
+    line-height: 20px;
+    padding: 10px 0;
+}

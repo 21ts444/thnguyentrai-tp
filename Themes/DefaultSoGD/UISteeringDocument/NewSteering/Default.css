@@ -1,0 +1,92 @@
+
+.NewSteeringControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 0;
+}
+.NewSteeringControl .Header {
+    background: rgba(0, 0, 0, 0) url("Images/logo.png") no-repeat scroll left 10px center;
+    height: 28px;
+    padding: 0 8px;
+}
+.NewSteeringControl .Header > a {
+    color: #0079c2;
+    display: inline-block;
+    font: bold 15px/28px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.NewSteeringControl .Header > span {
+    border-bottom: 2px solid #da1c1c;
+    color: #da1c1c;
+    display: inline-block;
+    font: bold 15px/28px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.NewSteeringControl .Detail {
+    height: 207px !important;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.NewSteeringControl .Detail .Title {
+    cursor: pointer;
+    font: bold 13px arial;
+    margin-bottom: 6px;
+}
+.NewSteeringControl .Detail .Expand a {
+    display: inline-block;
+    font: italic 12px arial;
+    padding: 5px 0 0;
+}
+.NewSteeringControl .Detail .Title:hover {
+    color: #ce1110;
+}
+.NewSteeringControl .download {
+    color: #ae0002;
+    display: inline-block;
+    float: right;
+    font: bold 12px arial;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+.NewSteeringControl .DetailScroll {
+    height: 207px !important;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.NewSteeringControl .DetailScroll .ListItem .item {
+    display: inline-block;
+    margin: 0;
+}
+.NewSteeringControl .DetailScroll .Title {
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 13px arial;
+}
+.NewSteeringControl .DetailScroll .Expand a, .DateIssued {
+    color: #424242;
+    display: inline-block;
+    font: italic 12px arial;
+    margin-bottom: 2px;
+    padding: 6px 0 0;
+}
+.NewSteeringControl .DetailScroll .Title:hover {
+    color: #b82805;
+}
+.NewSteeringControl .DetailScroll ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,105 @@
+
+.QuestionControl {
+    font: 10pt arial;
+}
+.QuestionControl .QuestionContent {
+    margin: 10px 0;
+}
+.QuestionControl .QuestionContent .tb-Filter {
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 3px #d0d0d0;
+    padding: 10px;
+}
+.QuestionControl .QuestionContent .tb-Content {
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 3px #d0d0d0;
+    margin-top: 15px;
+    padding: 20px;
+}
+.QuestionControl .QuestionContent td {
+    width: 150px;
+}
+.QuestionControl .QuestionContent .SearchTitle, .Category-Header {
+    font: bold 10pt arial;
+    height: 30px;
+}
+.QuestionControl .QuestionContent input {
+    height: 22px;
+    width: 248px !important;
+}
+.QuestionControl .QuestionContent select {
+    height: 22px;
+}
+.QuestionControl .QuestionContent .btnSearch, .btnCancel {
+    background: none repeat scroll 0 0 #D70000;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #ddd;
+    color: #ffffff;
+    font: bold 9pt/26px Arial;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.QuestionControl .QuestionContent .btnSearch:hover, .btnCancel:hover {
+    background: none repeat scroll 0 0 #cf3433;
+}
+.QuestionControl .QuestionContent .Header {
+    border-bottom: 2px solid #cccccc;
+    color: #222222;
+    font: bold 10pt arial;
+    height: 30px;
+}
+.QuestionControl .QuestionContent .Question-Title {
+    background: url("Images/faq-icon.png") no-repeat scroll left center transparent;
+    color: #da2a2c;
+    font: bold 10pt arial;
+    padding-left: 25px;
+}
+.QuestionControl .QuestionContent .td-Question-Title {
+    padding: 10px 0;
+}
+.QuestionControl .DateCreated, .CustomerName, .Address, .Email, .DateCreate {
+    color: #444444;
+    font: italic 9pt arial;
+}
+.QuestionControl .QuestionContent .td-DateCreated {
+    padding-top: 10px;
+}
+.QuestionControl .QuestionDetail {
+    margin-top: 20px;
+}
+.QuestionControl .QuestionDetail .tb-QuestionDetail {
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 0 3px #d0d0d0;
+    padding: 20px;
+}
+.QuestionControl .QuestionDetail .td-QuestionTitle {
+    color: #da2a2c;
+    font: bold 10pt arial;
+    padding: 15px 0;
+}
+.QuestionControl .QuestionDetail .td-Back {
+    padding: 20px 0;
+}
+.QuestionControl .QuestionDetail .Back {
+    background: none repeat scroll 0 0 #015293;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #444444;
+    color: #ffffff;
+    font: bold 9pt/26px Arial;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.QuestionControl .QuestionDetail .Back:hover {
+    background: none repeat scroll 0 0 #238bc8;
+}
+.QuestionControl .QuestionDetail .td-CustomerName {
+    padding-top: 10px;
+}
+.QuestionControl .QuestionDetail .td-AnsTitle {
+    padding: 20px 0;
+}
+.QuestionControl .QuestionDetail .Title, .AnsTitle {
+    border-bottom: 4px solid #cccccc;
+    color: #444444 !important;
+    font: bold 12pt arial;
+}

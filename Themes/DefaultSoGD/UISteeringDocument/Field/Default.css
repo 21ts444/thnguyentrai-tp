@@ -1,0 +1,26 @@
+
+.FieldControl {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e0e0e0;
+}
+.FieldControl .Header {
+    border-bottom: 2px solid #eabc00;
+    height: 32px;
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+.FieldControl .Header > span {
+    border-bottom: 6px solid #b80002;
+    color: #ae0002;
+    display: inline-block;
+    font: bold 10pt/30px Arial;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.FieldControl .Detail {
+    padding: 0 10px 10px;
+}
+.FieldControl .Detail .UserItem {
+    background: rgba(0, 0, 0, 0) url("Images/arr.png") no-repeat scroll left center;
+    padding: 2px 0 2px 10px;
+}

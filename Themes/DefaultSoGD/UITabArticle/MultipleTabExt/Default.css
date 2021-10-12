@@ -1,0 +1,146 @@
+
+.MultipleTabExt .Wrap {
+    padding: 10px 5px 0;
+}
+.MultipleTabExt {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8px;
+}
+.MultipleTabExt .Header {
+    background: rgba(0, 0, 0, 0) url("Images/logo.png") no-repeat scroll left 1px top 2px;
+    border-bottom: 2px solid #da1c1c;
+    height: 26px;
+    list-style: outside none none;
+    margin: 11px 8px 5px;
+    padding: 0;
+    width: 98%;
+}
+.MultipleTabExt .Header .HeadWraper {
+}
+.MultipleTabExt .Header .HeadWraper ul {
+    display: block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.MultipleTabExt .Header .HeadWraper .Primary {
+    border-radius: 5px 0 0;
+    display: inline-block;
+}
+.MultipleTabExt .Header .HeadWraper li {
+    display: inline-block;
+    height: 27px;
+}
+.MultipleTabExt .Header .HeadWraper .Sub {
+    border-right: 1px solid #888;
+    height: 18px;
+}
+.MultipleTabExt .Header .HeadWraper .Primary span {
+}
+.MultipleTabExt .Header .HeadWraper .Primary span a {
+    color: #da1c1c;
+    display: inline-block;
+    font: bold 15px "Segoe UI",Tahoma,Verdana;
+    padding: 0 18px 0 32px;
+    white-space: nowrap;
+}
+.MultipleTabExt .Header .HeadWraper .Sub:last-child {
+    border-right: medium none;
+}
+.MultipleTabExt .Header .HeadWraper .Sub span a {
+    color: #034fa5;
+    font: bold 13px/18px arial;
+    padding: 0 6px;
+}
+.MultipleTabExt .Header .HeadWraper .Sub span a:hover {
+    text-decoration: underline;
+}
+.MultipleTabExt .Wrap .LeftCol {
+    padding-right: 20px;
+    width: 60%;
+}
+.MultipleTabExt .Wrap .LeftCol .first {
+}
+.MultipleTabExt .Wrap .LeftCol .first .image {
+    border-radius: 2px;
+    float: left;
+    height: 90px;
+    margin: 0 6px 3px 4px;
+    width: 120px;
+}
+.MultipleTabExt .Wrap .LeftCol .first .title {
+    margin: 0;
+    padding: 0;
+}
+.MultipleTabExt .Wrap .LeftCol .first p {
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: justify;
+}
+.MultipleTabExt .Wrap .LeftCol .first .title a:hover {
+    color: #049be2;
+}
+.MultipleTabExt .Wrap .LeftCol .first .title a {
+    font: bold 10pt Arial;
+    text-decoration: none;
+}
+.MultipleTabExt .Wrap .LeftCol .clear {
+    clear: both;
+}
+.MultipleTabExt .Wrap .LeftCol .next {
+    color: red;
+    list-style: outside none square;
+    margin: 10px 0 16px 20px;
+    padding: 0;
+}
+.MultipleTabExt .Wrap .LeftCol .next li {
+    padding: 4px 4px 4px 0;
+}
+.MultipleTabExt .Wrap .LeftCol .next li a:hover {
+    color: #1475d6;
+}
+.MultipleTabExt .Wrap .LeftCol .next li a {
+    color: #222;
+    font: 10pt arial;
+    text-decoration: none;
+}
+.MultipleTabExt .Wrap .RightCol {
+    padding-right: 5px;
+}
+.MultipleTabExt .Wrap .RightCol ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.MultipleTabExt .Wrap .RightCol ul li {
+    clear: both;
+    padding: 0 0 15px;
+    text-align: justify;
+}
+.MultipleTabExt .Wrap .RightCol ul li .image {
+    border-radius: 2px;
+    float: left;
+    height: 50px;
+    margin-bottom: 17px;
+    margin-right: 8px;
+    width: 65px;
+}
+.MultipleTabExt .Wrap .RightCol ul li a {
+    color: #222;
+    font: 10pt arial;
+    text-align: right;
+}
+.MultipleTabExt .Wrap .RightCol ul li a:hover {
+    color: #1475d6;
+}

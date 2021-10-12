@@ -1,0 +1,44 @@
+
+.YoutubePlayer .Header {
+    background: url("Images/logo.png") no-repeat scroll left 10px center rgba(0, 0, 0, 0);
+    height: 31px;
+    padding: 0 8px;
+}
+.YoutubePlayer {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    margin: 0;
+}
+.YoutubePlayer .Header .Text {
+    border-bottom: 2px solid #da1c1c;
+    color: #004175;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    width: 88%;
+}
+.YoutubePlayer .Title {
+    color: #333;
+    display: inline-block;
+    font: 10pt arial;
+    padding: 9px;
+}
+.YoutubePlayer iframe {
+    background-color: White;
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.YoutubePlayer .VideoContain {
+    margin-top: 8px;
+    padding: 0 9px;
+}

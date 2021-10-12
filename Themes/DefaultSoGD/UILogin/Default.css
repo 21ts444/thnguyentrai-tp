@@ -1,0 +1,278 @@
+
+.LoginControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+.LoginControl .WrapAll {
+    margin: 0 0 10px;
+}
+.LoginControl .LoginHeader {
+    background: url("Images/logo.png") no-repeat scroll left 10px center rgba(0, 0, 0, 0);
+    height: 30px;
+    padding: 0 8px;
+}
+.LoginControl .LoginHeader .LoginTitle {
+    border-bottom: 2px solid #da1c1c;
+    color: #004175;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.LoginControl .LoginContainer {
+    padding: 6px 5px 0 8px;
+}
+.LoginControl ul {
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.LoginControl ul li {
+    color: #222222;
+    display: block;
+    font: 13px/16px "Segoe UI",Tahoma,Verdana;
+    margin: 5px 0;
+}
+.LoginControl ul li .txtUserName, .txtPassword, .txtEmail {
+    display: block;
+    height: 18px;
+    width: 95%;
+}
+.LoginControl .LoginPanel .liButtonLogin {
+    margin-top: 3px;
+    text-align: center;
+}
+.LoginControl .LoginPanel .liButtonLogin > input {
+    background: none repeat scroll 0 0 #da1c1c;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    color: #ffffff;
+    cursor: pointer;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    padding: 3px;
+}
+.LoginControl .LoginPanel .liButtonLogin > input:hover {
+    background: none repeat scroll 0 0 #004175;
+}
+.LoginControl .LoginPanel .liLoginInfo {
+}
+.LoginControl .LoginPanel .liAdvance {
+    text-align: center;
+}
+.LoginControl .LoginPanel .liAdvance a {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    white-space: nowrap !important;
+}
+.LoginControl .liCapcha {
+    display: inline-block !important;
+}
+.LoginControl .LoginContainer .CapchaContainer .Capcha {
+    float: left;
+}
+.LoginControl .LoginContainer .CapchaContainer .Capcha .lblCapcha {
+    display: inline-block;
+    line-height: 19px;
+    width: 80px;
+}
+.LoginControl .LoginContainer .CapchaContainer .Capcha .ImgCapcha {
+    margin-right: 10px;
+    width: 50px;
+}
+.LoginControl .LoginContainer .CapchaContainer .Capcha .txtCapcha {
+    height: 18px;
+    width: 52px;
+}
+.LoginContainer .lblAccount {
+    color: #222222;
+    display: inline-block;
+    font: bold 10pt arial;
+}
+.LoginContainer .lnkLogout {
+    color: #222222;
+    margin-right: 10px;
+}
+.UILoginMyAccount {
+    background: url("../../../ErrorRequestb914.html") repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 30px;
+}
+.UILoginMyAccount .Title {
+    background: none repeat scroll 0 0 #ffffff;
+    border-bottom: 1px solid #e4e4e4;
+    height: 45px;
+    margin-bottom: 20px;
+}
+.UILoginMyAccount .Title span {
+    color: #0067b2;
+    font: 18px/41px arial;
+    padding-left: 20px;
+}
+.UILoginMyAccount .Main {
+}
+.UILoginMyAccount .Main .Right .Title span {
+    color: #555555;
+    font: 18px/60px arial;
+}
+.UILoginMyAccount .Main .Right .Title {
+    background: url("../../../ErrorRequestb914.html") no-repeat scroll right -7px rgba(0, 0, 0, 0);
+    border: medium none;
+}
+.UILoginMyAccount .Main .Left {
+    background: url("../../../ErrorRequestb914.html") repeat scroll 0 0 #ffffff;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 1px 0 #ffffff inset;
+    float: left;
+    height: 370px;
+    margin-right: 20px;
+    width: 56%;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword {
+    list-style: none outside none;
+    padding: 20px;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword .liTitle {
+    color: #555555;
+    font: 18px arial;
+    margin-bottom: 20px;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword .liTextBox input {
+    background: none repeat scroll 0 0 #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color: #444444;
+    font: italic 10pt arial;
+    height: 30px;
+    padding: 0 5px;
+    width: 320px;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword .liButton {
+    margin-top: 20px;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword .liButton .lnkSendMail, .liButton .lnkClose {
+    background: none repeat scroll 0 0 #f89406;
+    border: 1px solid #dc932c;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 2px 0 #b3b3b3;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font: 14px arial;
+    height: auto !important;
+    margin-right: 10px;
+    padding: 5px 8px;
+    width: auto;
+}
+.UILoginMyAccount .Main .Left #ulGetPassword .liMailInfo {
+    color: #ff0000;
+    font: italic 10pt arial;
+}
+.UILoginMyAccount .Main .Right {
+    background: url("../../../ErrorRequestb914.html") repeat scroll 0 0 #ffffff;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 1px 0 #ffffff inset;
+    display: inline-block;
+    height: 370px;
+    position: relative;
+    width: 41%;
+}
+.UILoginMyAccount .Main .Right .lblUserName {
+    color: #333333;
+    font: 14px arial;
+    padding-left: 10px;
+}
+.UILoginMyAccount .Main .Right .lblPassword {
+    color: #333333;
+    font: 14px arial;
+    padding-left: 10px;
+}
+.UILoginMyAccount .Main .Right .lblCapcha {
+    color: #333333;
+    font: 14px arial;
+    padding-left: 10px;
+}
+.UILoginMyAccount .Main .Right .LoginForm input {
+    background: none repeat scroll 0 0 #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color: #444444;
+    font: italic 10pt arial;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0 5px;
+    width: 320px;
+}
+.UILoginMyAccount .Main .Right .LoginForm .txtCapcha {
+    height: 25px;
+    width: 100px;
+}
+.UILoginMyAccount .Main .Right .LoginForm .lblLoginInfo {
+    color: #ff0000;
+    font: italic 10pt arial;
+    padding-left: 10px;
+}
+.UILoginMyAccount .Main .Right .LoginForm .ButtonLogin {
+    background: none repeat scroll 0 0 #067edc;
+    border: 1px solid #0072cc;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 2px 0 #b3b3b3;
+    color: #ffffff;
+    cursor: pointer;
+    font: 14px arial;
+    height: auto !important;
+    margin-left: 8px;
+    padding: 10px;
+    width: auto;
+}
+.UILoginMyAccount .Block {
+    margin: 5px 0 0 30px;
+    padding: 15px 0 15px 60px;
+}
+.UILoginMyAccount .Block1 {
+    background: url("../../../ErrorRequestb914.html") no-repeat scroll left 30px rgba(0, 0, 0, 0);
+}
+.UILoginMyAccount .Block1 h4 {
+    color: #0067b1;
+    font: 10pt/24px arial;
+    padding-left: 15px;
+}
+.UILoginMyAccount .Block2 {
+    background: url("../../../ErrorRequestb914.html") no-repeat scroll left 27px rgba(0, 0, 0, 0);
+}
+.UILoginMyAccount .Block2 .LinkReg {
+    background: none repeat scroll 0 0 #f89406;
+    border: 1px solid #dc932c;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 2px 0 #b3b3b3;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font: 14px arial;
+    height: auto !important;
+    padding: 10px;
+    width: auto;
+}
+.UILoginMyAccount .Block3 {
+    background: url("../../../ErrorRequestb914.html") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+.UILoginMyAccount .Block3 .subTitle {
+    color: #0067b1;
+    font: italic 10pt arial;
+}
+.UILoginMyAccount .Block > div > span {
+    color: #333333;
+    font: 17px/40px arial;
+}

@@ -1,0 +1,135 @@
+
+.ArticleInMenu .SingleArticle * {
+    line-height: 18px;
+}
+.ArticleInMenu .SingleArticle {
+    padding: 5px;
+}
+.ArticleInMenu .Ngaydang {
+    font: italic 12px arial;
+    margin-bottom: 5px;
+    text-align: right;
+}
+.ArticleInMenu .ArticleCatDesc {
+    font: italic bold 13px/30px arial;
+    text-decoration: underline;
+}
+.ArticleInMenu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.ArticleInMenu .Apple-tab-span {
+    display: none;
+}
+.ArticleInMenu img {
+    max-width: 650px !important;
+}
+.ArticleInMenu li {
+    clear: both;
+    float: left;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    list-style: outside none none;
+    padding: 10px 0;
+    width: 100%;
+}
+.ArticleInMenu li img {
+    border: 1px solid #cccccc;
+    height: 100px;
+    padding: 2px;
+    width: 140px;
+}
+.ArticleInMenu .SingleArticle .title {
+    color: #222222;
+    font: bold 15px arial;
+    text-align: left;
+}
+.ArticleInMenu .SingleArticle a {
+    color: #111;
+    font: bold 13pt arial;
+}
+.ArticleInMenu li .Title a {
+    color: #555;
+    font: bold 13px "Segoe UI",Tahoma,Verdana;
+}
+.ArticleInMenu ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    width: 99%;
+}
+.ArticleInMenu a img {
+    float: left;
+    margin-right: 10px;
+}
+.ArticleInMenu .Title {
+    font: bold 13px arial;
+    margin: 0;
+}
+.ArticleInMenu .Page {
+    clear: both;
+    display: block;
+}
+.ArticleInMenu .Paging .button {
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    margin: 0 2px;
+}
+.ArticleInMenu .Paging .curpage {
+    font: bold 14px "Segoe UI",Tahoma,Verdana;
+    margin: 0 2px;
+}
+.ArticleInMenu .Paging {
+    color: #555;
+    margin: 0;
+    text-align: right;
+}
+.ArticleInMenu .SingleArticle > table {
+    margin: 0 !important;
+}
+.ArticleInMenu > table {
+    margin: 0 !important;
+    width: 100% !important;
+}
+.ArticleInMenu .ArticleCatName {
+    background: #f9e5e5 none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px 3px 0 0;
+    height: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+.ArticleInMenu .ArticleCatName a {
+    background: #d32626 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    float: left;
+    font: bold 13px/23px arial;
+    height: 100%;
+    margin: 0;
+    padding: 0 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+.ArticleInMenu .ArticleCatName a::after {
+    border-color: transparent transparent transparent #d32626;
+    border-style: solid;
+    border-width: 14px 0 11px 13px;
+    content: " ";
+    display: block;
+    height: 0;
+    margin-left: 2px;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    vertical-align: middle;
+    width: 0;
+}

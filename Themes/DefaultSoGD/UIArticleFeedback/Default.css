@@ -1,0 +1,111 @@
+
+.ArticleFeedbackControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("Images/commment.png") no-repeat scroll left 7px top 10px;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    padding: 45px 6px 6px;
+    width: 98%;
+}
+.ArticleFeedbackControl .FeedbackList {
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    padding: 10px;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedBackTitle {
+    color: #c70006;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedbackContent, .FeedbackContentFull {
+    color: #222;
+    font: 10pt arial;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedbackName {
+    background: rgba(0, 0, 0, 0) url("Images/p.png") no-repeat scroll left bottom 6px;
+    color: #c70006;
+    display: inline-block;
+    font: bold 10pt arial;
+    padding: 4px 0 3px 19px;
+    text-decoration: none;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedbackDate {
+    color: #888;
+    font: italic 9pt arial;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .imgCompact, .ArticleFeedbackControl .FeedbackList .FeedBackItem .imgFull {
+    cursor: pointer;
+    margin-left: 5px;
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedbackLike {
+}
+.ArticleFeedbackControl .FeedbackList .FeedBackItem .FeedbackLike input {
+}
+.ArticleFeedbackControl div.FeedbackForm {
+    background: rgba(0, 0, 0, 0) url("Images/send.png") no-repeat scroll left top;
+    margin-top: 20px;
+    padding: 40px 10px 10px;
+}
+.ArticleFeedbackControl .FeedbackForm .FormLabel {
+}
+.ArticleFeedbackControl .FeedbackForm .ErrorInfor {
+    color: red;
+}
+.ArticleFeedbackControl table td {
+    white-space: nowrap;
+}
+.ArticleFeedbackControl table td {
+    padding: 2px 5px 2px 2px;
+    vertical-align: middle;
+}
+.ArticleFeedbackControl .FeedbackForm img.Verifier {
+    vertical-align: top;
+}
+.ArticleFeedbackControl .FeedbackForm .PanelButton input {
+    background: #fe9f06 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: #fff;
+    font: 14px "Segoe UI",Tahoma,Verdana;
+    margin-top: 12px;
+    padding: 1px 5px;
+}
+.ArticleFeedbackControl .ColRight textarea {
+    width: 300px;
+}
+.ArticleFeedbackControl .Pager {
+    float: right;
+}
+.ArticleFeedbackControl .ColRight input {
+    height: 18px;
+    width: 200px;
+}
+.ArticleFeedbackControl .ColRight input.Verifier {
+    height: 18px;
+    width: 50px;
+}
+.ArticleFeedbackControl .ButtonLike {
+    background: rgba(0, 0, 0, 0) url("Images/like.png") no-repeat scroll left center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.ArticleFeedbackControl .ButtonDislike {
+    background: rgba(0, 0, 0, 0) url("Images/dlike.png") no-repeat scroll left center;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}

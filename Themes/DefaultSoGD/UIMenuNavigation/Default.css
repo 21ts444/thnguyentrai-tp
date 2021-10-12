@@ -1,0 +1,58 @@
+
+.MenuNavigation {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    margin: 0;
+    padding: 0 10px;
+}
+.MenuNavigation .NavContainer {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.MenuNavigation .NavContainer li {
+    float: left;
+    padding: 0 10px 0 0;
+}
+.MenuNavigation li.Item {
+    background: transparent url("images/li_icon.png") no-repeat scroll 0 16px;
+    padding-left: 15px;
+}
+.MenuNavigation .NavContainer li .wrap {
+    display: inline-block;
+}
+.MenuNavigation .NavContainer .Home .wrap .Image {
+    background: transparent url("Images/Home.png") no-repeat scroll center center;
+    display: inline-block;
+}
+.MenuNavigation .NavContainer li a {
+    color: #666666;
+    display: inline-block;
+    font: 14px/15px "Segoe UI",Tahoma,Verdana;
+    margin: 10px 0;
+    text-decoration: none;
+}
+.MenuNavigation .NavContainer li:last-child a {
+    color: #0079C2;
+}
+.MenuNavigation .BoxSearch {
+    float: right;
+}
+.MenuNavigation .BoxSearch .text {
+}
+.MenuNavigation .BoxSearch .image {
+}
+.MenuNavigation .BoxSearch .SubmitSearch {
+    background-color: #4d90fe;
+    color: White;
+}

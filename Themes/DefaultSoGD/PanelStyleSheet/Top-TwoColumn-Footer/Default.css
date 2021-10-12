@@ -1,0 +1,66 @@
+
+* {
+    text-rendering: geometricprecision;
+}
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+a {
+    color: #424242;
+    font: 13px "Segoe UI",Tahoma,Verdana;
+    text-decoration: none;
+}
+img {
+    border: medium none;
+}
+.MainStructure {
+    background: rgba(0, 0, 0, 0) url("Images/top.png") repeat-x scroll left top;
+    text-align: center;
+}
+.MainStructure .TopBanner {
+    margin: 34px auto 0;
+    width: 100%;
+}
+.MainStructure .TopBar {
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+    width: 1060px;
+}
+.MainStructure .ContentBanner {
+    background: #e9ebee none repeat scroll 0 0;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.MainStructure .MainContent {
+    display: inline-table;
+    margin: 0 auto;
+    padding: 8px 0;
+    vertical-align: top;
+    width: 1060px;
+}
+.MainStructure .LeftBar {
+    padding: 0 10px 0 0;
+    text-align: justify;
+    vertical-align: top;
+}
+.MainStructure .ContentBar {
+    padding: 0;
+    text-align: justify;
+    vertical-align: top;
+}
+.MainStructure .FooterBanner {
+    background: #fff none repeat scroll 0 0;
+    border-top: 6px solid #b30101;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+.MainStructure .FooterBar {
+    margin: 0 auto;
+    text-align: justify;
+    width: 100%;
+}

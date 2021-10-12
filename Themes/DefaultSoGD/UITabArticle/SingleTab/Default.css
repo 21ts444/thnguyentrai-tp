@@ -1,0 +1,97 @@
+
+.SingleTab {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0 0 10px;
+    width: 100%;
+}
+.SingleTab .Header {
+    background: rgba(0, 0, 0, 0) url("Images/logo.png") no-repeat scroll left 9px center;
+    height: 33px;
+    padding: 0 8px;
+}
+.SingleTab .Header .HeaderWraper {
+}
+.SingleTab .Header .HeaderWrap .text > a {
+    border-bottom: 2px solid #da1c1c;
+    color: #da1c1c;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 29px;
+    white-space: nowrap;
+    width: 93%;
+}
+.SingleTab .Header .HeadWraper ul {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.SingleTab .Header .HeadWraper li {
+    display: inline-block;
+    float: left;
+}
+.SingleTab .Header .HeadWraper li span {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+}
+.SingleTab .Header .HeadWraper .Primary span {
+    background: #cecece none repeat scroll 0 0;
+    margin-right: 4px;
+}
+.SingleTab .Header .HeadWraper .Image {
+    margin-right: 6px;
+}
+.SingleTab .Wrap {
+    height: 220px;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 8px;
+}
+.SingleTab .Wrap .first {
+}
+.SingleTab .Wrap .first .image {
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+    width: 110px;
+}
+.SingleTab .Wrap .first .title {
+    margin: 0;
+    padding: 0;
+}
+.SingleTab .Wrap .first p {
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: justify;
+}
+.SingleTab .Wrap .first .title a {
+    color: #555;
+    font: bold 13px "Segoe UI",Tahoma,Verdana;
+    text-decoration: none;
+}
+.SingleTab .Wrap .clear {
+    clear: both;
+}
+.SingleTab .Wrap .next {
+    color: #ce1110;
+    list-style: outside none square;
+    margin-top: 5px;
+    padding-left: 11px;
+}
+.SingleTab .Wrap .next li {
+    padding: 4px 0;
+}
+.SingleTab .Wrap .next li a {
+    text-decoration: none;
+}

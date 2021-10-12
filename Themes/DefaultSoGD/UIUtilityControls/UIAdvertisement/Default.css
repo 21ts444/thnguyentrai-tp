@@ -1,0 +1,33 @@
+.AdvertisementTopLeft {
+    left: 10px;
+    position: absolute;
+    z-index: 5;
+}
+.AdvertisementTopRight {
+    position: absolute;
+    right: 10px;
+    z-index: 5;
+}
+
+.AdvertisementTopLeft {
+    left: 0;
+    position: fixed;
+    top: 20px;
+    z-index: 5;
+}
+.AdvertisementTopRight {
+    position: fixed;
+    right: 0;
+    top: 20px;
+    z-index: 5;
+}
+
+.AdvertisementCenter {
+    position: relative;
+    top: 0!important;
+    left: 0!important;
+}
+.AdvertisementBG {
+    width: 0!important;
+    height: 0!important;
+}

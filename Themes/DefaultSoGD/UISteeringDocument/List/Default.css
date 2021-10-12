@@ -1,0 +1,75 @@
+
+.ListControl {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e0e0e0;
+    padding: 0 10px;
+}
+.ListControl .Search .ExTitle {
+    border-bottom: 2px solid #eabc00;
+    height: 32px;
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+.ListControl .Search .ExTitle > span {
+    color: #b80002;
+    display: inline-block;
+    font: bold 11pt/30px Arial;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.ListControl .ExContent tr:nth-child(1) td:nth-child(2) {
+    display: inline-flex;
+    width: 368px !important;
+}
+.ListControl .List .Title > span {
+    color: #444;
+    display: inline-block;
+    font: bold 13px arial;
+    margin: 10px 0;
+}
+.ListControl table {
+  width:100%;
+}
+.ListControl .List table th {
+    color: #444;
+    height: 30px;
+    text-align: center;
+}
+.ListControl .List table td {
+    color: #000;
+    padding: 2px;
+}
+.ListControl .List table tr {
+    color: #bbb;
+}
+.ListControl .Search {
+    cursor: pointer;
+    font: 13px arial;
+}
+.ListControl .List table .download {
+    color: #ae0002 !important;
+    font: bold 11px arial;
+    text-decoration: underline;
+}
+.ListControl .List table td:nth-child(1) a span {
+    color: #333 !important;
+    font: 11px arial;
+    text-decoration: none;
+}
+.ListControl .List table td:nth-child(2) {
+    text-align: center;
+}
+.ListControl input.Search, input.Cancel {
+    background: #b80002 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset, 0 1px 2px 0 #b3b3b3;
+    color: #ffffff;
+    cursor: pointer;
+    font: 13px arial;
+    height: auto !important;
+    margin-right: 10px;
+    margin-top: 8px;
+    padding: 4px;
+    width: auto;
+}

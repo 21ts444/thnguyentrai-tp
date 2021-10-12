@@ -1,0 +1,85 @@
+
+.SimilarArticleControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px 0;
+    padding: 8px;
+}
+.SimilarArticleControl .ModuleTitle {
+    background: rgba(0, 0, 0, 0) url("Images/logo.png") no-repeat scroll left center;
+    border-bottom: 2px solid #da1c1c;
+    color: #da1c1c;
+    font: bold 16px/30px "Segoe UI",Tahoma,Verdana;
+    padding-left: 24px;
+}
+.SimilarArticleControl a {
+    color: #222;
+    font: 10pt "Segoe UI",Tahoma,Verdana;
+    text-align: justify;
+    text-decoration: none;
+}
+.SimilarArticleControl ul.ArticleList {
+    color: #da1c1c;
+    list-style: outside none square;
+    margin: 10px 0 0 12px;
+    padding: 0;
+}
+.SimilarArticleControl .ItemClear {
+    list-style: outside none none;
+}
+.SimilarArticleControl li.ListItem {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+.SimilarArticleControl .ArticlePostDate, .ArticleViewCount {
+    float: left;
+    font: italic 9pt "Segoe UI",Tahoma,Verdana;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+.SimilarArticleControl .ArticleList .ListItem .ArticlePostDate {
+}
+.SimilarArticleControl .ArticleList .GridItem {
+    display: block;
+    float: left;
+    height: 140px;
+    list-style-position: outside;
+    margin: 4px;
+    padding: 5px;
+    text-align: center;
+    width: 118px;
+}
+.SimilarArticleControl .ArticleList .GridItem .ArticleImage {
+    display: none;
+    height: 80px;
+    margin-bottom: 5px;
+    width: 120px;
+}
+.SimilarArticleControl .ArticleList .GridItem .ArticleTitle:hover {
+    color: #ff4e00;
+}
+.SimilarArticleControl .ArticleList .GridItem .ArticleTitle {
+}
+.SimilarArticleControl .ArticleList .GridItem .ArticlePostDate {
+}
+.SimilarArticleControl .ArticleList .ItemClear {
+    clear: both;
+}
+.SimilarArticleControl .CurrentPage {
+    cursor: pointer;
+    font: bold 10pt "Segoe UI",Tahoma,Verdana;
+    padding: 0 5px;
+}
+.SimilarArticleControl .ButtonPage {
+    font: 10pt "Segoe UI",Tahoma,Verdana;
+    padding: 0 5px;
+}

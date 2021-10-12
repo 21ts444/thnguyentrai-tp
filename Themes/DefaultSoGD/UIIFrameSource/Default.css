@@ -1,0 +1,14 @@
+
+form {
+    width: 100%;
+}
+.dataTables_scrollHeadInner {
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+table th {
+    text-align: center;
+}
+

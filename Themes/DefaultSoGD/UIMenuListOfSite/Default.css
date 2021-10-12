@@ -1,0 +1,86 @@
+
+.MenuListofSite {
+    background: #ff5400 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #e7e7e7;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+.MenuListofSite ul.parent {
+    background: #ff5400 url("Images/edu.png") no-repeat scroll left 15px center;
+    display: block;
+    height: 33px;
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 0;
+    text-align: right;
+    width: 1060px;
+}
+.MenuListofSite ul.parent li {
+    border-right: 1px solid #e2470a;
+    cursor: pointer;
+    display: inline-block;
+    height: 33px;
+    margin: 0;
+    position: relative;
+}
+.MenuListofSite ul.parent li a {
+    color: #fff;
+    font: bold 13px/33px "Segoe UI",Tahoma,Verdana;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+.MenuListofSite ul.parent > li:hover {
+    background: #da1c1c none repeat scroll 0 0;
+    color: #fff;
+}
+.MenuListofSite .parent li .wrap {
+    display: none;
+}
+.MenuListofSite .parent li:last-child:hover .wrap {
+    position: absolute;
+    left: -300px;
+}
+.MenuListofSite .parent li:hover .wrap {
+    background: #fff none repeat-x scroll left top;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    left: -150px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: justify;
+    top: 98%;
+    z-index: 10000;
+}
+.MenuListofSite .parent li .wrap ul.columns {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+.MenuListofSite .parent li .wrap ul.columns li {
+    border: medium none;
+    height: 35px;
+    margin: 0;
+    padding: 0 20px;
+    white-space: nowrap;
+    width: 460px;
+}
+.MenuListofSite .parent li .wrap ul.columns li a {
+    color: #333;
+    font: 13px/35px arial;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.MenuListofSite .parent li .wrap ul.columns li:hover a {
+    color: #da1c1c;
+}

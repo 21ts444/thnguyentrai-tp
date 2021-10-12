@@ -1,0 +1,36 @@
+
+.WebLink {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px 0;
+}
+.WebLink .HeadLink {
+    background: url("Images/logo.png") no-repeat scroll left 10px center rgba(0, 0, 0, 0);
+    height: 31px;
+    padding: 0 8px;
+}
+.WebLink .HeadLink .Title {
+    border-bottom: 2px solid #da1c1c;
+    color: #004175;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.WebLink .Content ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.WebLink .Content {
+    margin: 9px;
+}

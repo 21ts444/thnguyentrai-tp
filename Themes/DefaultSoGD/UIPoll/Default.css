@@ -1,0 +1,56 @@
+
+.PollControl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font: 12px "Segoe UI",Tahoma,Verdana;
+    margin: 8px 0;
+}
+.PollControl .tdHeader {
+    background: url("Images/logo.png") no-repeat scroll left 10px center rgba(0, 0, 0, 0);
+    height: 31px;
+    padding: 0 8px;
+}
+.PollControl .tdHeader .Header {
+    border-bottom: 2px solid #da1c1c;
+    color: #004175;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.PollControl .PollName {
+    display: inline-block;
+    margin: 8px 8px 5px;
+}
+.PollControl .ListPollItem td {
+    display: inline-block;
+    height: 20px;
+    margin: 0;
+}
+.PollControl .ListPollItem label {
+    line-height: 20px;
+}
+.PollControl .ListPollItem input {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.PollControl .lnkSubmit, .ShowResult {
+    color: #da1c1c;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 13px "Segoe UI",Tahoma,Verdana;
+    padding: 3px 7px 5px;
+}
+.PollControl .ShowResult {
+    margin-right: 5px;
+}

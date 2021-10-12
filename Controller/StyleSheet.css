@@ -1,0 +1,108 @@
+
+.windialog
+{
+    background-color:#D7E4F2;
+    display:block;
+    border:solid 1px #53595E;
+}
+
+.windialog .dialogheader 
+{
+    height:24px;
+    background:#C6D4E2 url(../images/dialogtitle.gif) repeat-x 0px -9px; 
+}
+
+.windialog .dialogheader .title
+{
+    padding-top:4px; font:bold 9pt Arial;
+    float:left; display:block;
+    margin-left:6px;
+}
+
+.windialog .dialogheader .button
+{
+    height:22px; line-height: 22px;
+    float:right; display:block; width:40px;
+    background:transparent url(../images/dialogclose.gif) no-repeat center center;
+}
+
+.windialog .container 
+{
+    padding:5px;
+}
+
+
+
+iframe
+{
+    padding:0px;
+    margin:0px;
+    border:none;
+    background-color:White;
+}
+
+.divInfo {
+	padding: 8px;
+    color: Red;
+    border: solid 1px #F68928;
+    background-color: #FFE8A6;
+    font: normal 9pt Arial;
+    height: auto;
+}
+
+body, html, form {height:100%; width:100%; margin:0px; padding:0px; font:normal 9pt Arial;}
+
+.HeaderRowGradient{
+background: #dde8f5; /* Old browsers */
+background: -moz-linear-gradient(top,  #dde8f5 0%, #c3d8f1 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dde8f5), color-stop(100%,#c3d8f1)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #dde8f5 0%,#c3d8f1 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #dde8f5 0%,#c3d8f1 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #dde8f5 0%,#c3d8f1 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #dde8f5 0%,#c3d8f1 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde8f5', endColorstr='#c3d8f1',GradientType=0 ); /* IE6-9 */
+font:bold 9pt Arial;
+padding:4px 7px 4px 7px;
+border:1px solid #5D8CC9;
+}
+
+.DataRowGradient{
+background: #ffe5ba; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffe5ba 0%, #ffcb60 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffe5ba), color-stop(100%,#ffcb60)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffe5ba 0%,#ffcb60 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffe5ba 0%,#ffcb60 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffe5ba 0%,#ffcb60 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffe5ba 0%,#ffcb60 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe5ba', endColorstr='#ffcb60',GradientType=0 ); /* IE6-9 */
+border-bottom: 1px solid #FF9B35;
+}
+
+.DataRow{
+	border: 1px solid #D0D7E5;
+	font: 12px/16px "segoe ui",arial,sans-serif;
+	empty-cells:show;
+	padding-left:7px;
+
+}
+
+.AutoHeight{
+	position:absolute;
+	top:0px; bottom:0px;
+	display:block;
+	min-height:100px;
+}
+
+.Box{
+	border: solid 1px #88B0E4;
+}
+
+
+.BoxHeader, .FormHeader
+{
+    background: #E3EFFF url('../Admin/StyleSheet/Images/bgFormHeader.png') repeat-x bottom;
+    height: 24px;
+    font: bold 8pt/24px Arial;
+    color: #15428B;
+    padding-left: 6px;
+}

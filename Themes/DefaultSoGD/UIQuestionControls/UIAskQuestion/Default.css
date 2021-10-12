@@ -1,0 +1,40 @@
+
+.AskQuestion {
+    background: #ffffff url("Images/faq.png") no-repeat scroll 1px 5px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 12px;
+}
+.AskQuestion select {
+    height: 23px;
+}
+.AskQuestion input {
+    height: 23px;
+}
+.AskQuestion .RadEditor.Office2007.reWrapper {
+    margin: 10px 0;
+}
+.AskQuestion .td-Content {
+    padding-top: 10px;
+}
+.AskQuestion .td-Header, .AskQuestion .td-Title, .AskQuestion .td-CustomerName, .AskQuestion .td-Phone, .AskQuestion .td-Address, .AskQuestion .td-Email {
+    padding: 10px 0;
+}
+.AskQuestion .Email {
+    margin: 5px 0 10px;
+}
+.AskQuestion .lnkSubmit, .lnkReset {
+    background: #d70000 none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px #444444;
+    color: #ffffff;
+    font: bold 9pt/26px Arial;
+    padding: 6px;
+    text-transform: uppercase;
+}
+.AskQuestion .lnkSubmit:hover, .lnkReset:hover {
+    background: #cf3433 none repeat scroll 0 0;
+}
+.AskQuestion .lnkReset {
+    margin-left: 5px;
+}

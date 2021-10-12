@@ -1,0 +1,71 @@
+
+.OnlineCounter .MultiRow .Header {
+    background: url("Images/logo.png") no-repeat scroll left 10px center rgba(0, 0, 0, 0);
+    height: 31px;
+    padding: 0 8px;
+}
+.OnlineCounter {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #444444;
+    font: 13px/16px "Segoe UI",Tahoma,Verdana;
+    margin-bottom: 8px;
+}
+.OnlineCounter .MultiRow ul {
+    background: none repeat scroll 0 0 #ffffff;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+.OnlineCounter .MultiRow ul span:first-child {
+    display: inline-block;
+    padding: 3px 0 0 35px;
+}
+.OnlineCounter .MultiRow {
+    color: #444444;
+    font: 13px/16px "Segoe UI",Tahoma,Verdana;
+    margin-bottom: 10px;
+}
+.OnlineCounter .MultiRow .Header span {
+    border-bottom: 2px solid #da1c1c;
+    color: #004175;
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI",Tahoma,Verdana;
+    padding: 0 0 0 27px;
+    white-space: nowrap;
+    width: 88%;
+}
+.OnlineCounter .OneRow {
+    margin: 0 auto;
+    position: relative;
+    width: 1025px;
+}
+.OnlineCounter .OneRow .OnlineWrap {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.OnlineCounter .OneRow .OnlineContainer {
+    display: inline-block;
+    list-style: none outside none;
+}
+.OnlineCounter .OneRow .OnlineContainer > li {
+    border-right: 1px solid #fff;
+    display: inline-block;
+    padding: 0 10px;
+}
+.OnlineCounter .OneRow .OnlineContainer > li > span {
+    color: #fff;
+}
+.OnlineCounter .OneRow .OnlineContainer > li:last-child {
+    border-right: medium none;
+}
